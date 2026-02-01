@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery | Abbas Khalif | Lang'ata MP Aspirant 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+          <img
+            src="abbas-favicon.webp"
+            alt="Abbas Khalif favicon Logo"
+            class="logo-img"
+          />
+        </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="media.html" class="active">Media</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#donate" class="btn btn-primary" style="padding: 8px 20px; margin-left: 10px;">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+   <section class="page-hero media-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <h1>Media Gallery</h1>
+        <p>
+            Photos, videos, and speeches from Abbas Khalif's campaign
+            across Lang'ata Constituency.
+        </p>
+    </div>
+</section>
+
+
+    <!-- Media Section -->
+    <section class="media-section">
+        <div class="container">
+            <!-- Featured Video -->
+            <div class="featured-media">
+                <div class="section-title">
+                    <h2>Featured Video</h2>
+                    <p>Watch Abbas Khalif's vision for Lang'ata in his own words</p>
+                </div>
+                
+                <div class="featured-video-container">
+                    <div class="featured-video">
+                        <div class="video-placeholder" style="background-image: url('image\ -\ 2026-02-01T125945.713.webp');">
+                            <div class="video-placeholder-content">
+                                <div class="play-btn" id="playFeaturedVideo">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <h3>"Building a Stronger, Safer, and Smarter Lang'ata"</h3>
+                                <p>Watch Abbas Khalif's full campaign launch speech at Lang'ata Convention Centre, where he outlines his vision for transforming Lang'ata into a model Constituency.</p>
+                                <a href="https://youtu.be/mKdI2h-r1fk?si=Vz9TAiRMPOk-Eh8Z" target="_blank" class="btn btn-primary">Watch on YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Media Filters -->
+            <div class="section-title">
+                <h2>Campaign Gallery</h2>
+                <p>Photos and videos from campaign events across Lang'ata</p>
+            </div>
+            
+            <div class="media-filters">
+                <button class="filter-btn active" data-filter="all">All Media</button>
+                <button class="filter-btn" data-filter="photos">Photos</button>
+                <button class="filter-btn" data-filter="videos">Videos</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="rallies">Rallies</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+            </div>
+            
+            <!-- Media Grid -->
+            <div class="media-grid">
+                <!-- Media Card 1 -->
+                <div class="media-card" data-category="events">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-02-01T125844.487.webp');">
+                        <span class="media-category">Event</span>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> June 15, 2025</div>
+                        <h3>Campaign Launch at Otiende Social Hall</h3>
+                        <p>Thousands gathered at the Otiende Social Hall for the official launch of Abbas Khalif's parliamentary campaign.</p>
+                        <a href="#" class="media-link view-image" data-image="https://image\ -\ 2026-01-25T152111.004.webp">View Full Image <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Media Card 2 -->
+                <div class="media-card" data-category="videos">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-01-25T154036.681.webp');">
+                        <span class="media-category">Video</span>
+                        <div class="video-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> June 12, 2025</div>
+                        <h3>Youth Rally in Karen</h3>
+                        <p>Watch highlights from the massive youth rally where Abbas Khalif announced his plan to create 10,000 jobs for Lang'ata youth.</p>
+                        <a href="https://youtu.be/TltnIfSEHZA?si=dQo7KsRHH0di8Z30" target="_blank" class="media-link">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Media Card 3 -->
+                <div class="media-card" data-category="community">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-02-01T124941.124.webp');">
+                        <span class="media-category">Community</span>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> June 8, 2025</div>
+                        <h3>Women's Empowerment Forum</h3>
+                        <p>Abbas Khalif engaging with women leaders at the Nairobi West Women's Empowerment Forum focusing on economic opportunities.</p>
+                        <a href="#" class="media-link view-image" data-image="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80">View Full Image <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Media Card 4 -->
+                <div class="media-card" data-category="rallies">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-02-01T125224.746.webp');">
+                        <span class="media-category">Rally</span>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> June 5, 2025</div>
+                        <h3>Town Hall Meeting in Nyayo Highrise Ward</h3>
+                        <p>Interactive town hall meeting where Abbas Khalif listened to residents' concerns and presented his solutions for Nyayo Highrise Ward.</p>
+                        <a href="#" class="media-link view-image" data-image="https://images.unsplash.com/photo-1551836026-d5c2c5af78e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80">View Full Image <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Media Card 5 -->
+                <div class="media-card" data-category="videos">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-02-01T130322.250.webp');">
+                        <span class="media-category">Video</span>
+                        <div class="video-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> June 1, 2025</div>
+                        <h3>Media Interview with Radio Jambo</h3>
+                        <p>Exclusive interview with Radio Jambo discussing Abbas Khalif's plans for economic revival in Lang'ata.</p>
+                        <a href="https://youtu.be/z0NIUUzdT2Y?si=fKuTRhceF_3sLcSs" target="_blank" class="media-link">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Media Card 6 -->
+                <div class="media-card" data-category="community">
+                    <div class="media-image" style="background-image: url('image\ -\ 2026-02-01T124721.762.webp');">
+                        <span class="media-category">Community</span>
+                    </div>
+                    <div class="media-content">
+                        <div class="media-date"><i class="far fa-calendar"></i> May 28, 2025</div>
+                        <h3>Visit to Mugumoini Informal Settlements</h3>
+                        <p>Abbas Khalif meeting with residents of Mugumoini to discuss solutions for affordable housing and improved sanitation.</p>
+                        <a href="#" class="media-link view-image" data-image="image\ -\ 2026-01-25T153600.481.webp">View Full Image <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Speeches Section -->
+            <div class="speeches-section">
+                <div class="section-title">
+                    <h2>Speeches & Documents</h2>
+                    <p>Download official speeches, policy documents, and campaign materials</p>
+                </div>
+                
+                <div class="speeches-grid">
+                    <div class="speech-card">
+                        <div class="speech-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h3>Campaign Manifesto 2027</h3>
+                        <p>Complete policy document outlining Abbas Khalif's vision for Lang'ata's transformation over the next 5 years.</p>
+                        <a href="#" class="download-btn" onclick="downloadFile('manifesto')"><i class="fas fa-download"></i> Download PDF (2.4MB)</a>
+                    </div>
+                    
+                    <div class="speech-card">
+                        <div class="speech-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3>Campaign Launch Speech</h3>
+                        <p>Full transcript of Abbas Khalif's powerful campaign launch speech at Otiende Social Hall on June 15, 2025.</p>
+                        <a href="#" class="download-btn" onclick="downloadFile('speech')"><i class="fas fa-download"></i> Download DOC (1.1MB)</a>
+                    </div>
+                    
+                    <div class="speech-card">
+                        <div class="speech-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Economic Policy Brief</h3>
+                        <p>Detailed policy brief on economic revival, job creation, and business support for Lang'ata Constituency.</p>
+                        <a href="#" class="download-btn" onclick="downloadFile('policy')"><i class="fas fa-download"></i> Download PDF (3.2MB)</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More Button -->
+            <div class="load-more">
+                <button class="btn btn-secondary" id="loadMoreMedia">Load More Media</button>
+            </div>
+        </div>
+    </section>
+ <!-- Footer -->
+     <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-img">AK</div>
+                        Abbas Khalif
+                    </div>
+                    <p> Abbas Khalif is a committed leader, technocrat, and public servant with a proven track record of excellence in governance. Join us in building a better Lang'ata for all.</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100078165384028" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/AbbasKhalif" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/AbbasKhalif/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/Abbas-Khalif-mgh-a583322/?originalSubdomain=ke" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/channel/UCyTL4fNBFS6BdrJDQ6pdvPA" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Khalif</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="media.html">Media Gallery</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/eDe3a8vN7H3uQG666">Lang'ata Constituency, Kenya</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+254723562484" style="color: var(--gray-light);">+254 723 562 484</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@abbaskhalif.com" style="color: var(--gray-light);">info@abbaskhalif.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Abbas Khalif Campaign. All Rights Reserved. | </p>
+                <p style="margin-top: 10px;">Lang'ata MP Aspirant 2027</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254723562484?text=Hello%20Abbas%20Khalif%20Campaign,%20I%20would%20like%20to%20get%20in%20touch%20about%20your%202027%20Lang'ata%20MP%20campaign" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Lightbox Overlay -->
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-content">
+            <button class="close-lightbox" id="closeLightbox">&times;</button>
+            <img src="image - 2026-01-20T131825.886.webp" alt="Full size image" id="lightboxImage">
+        </div>
+    </div>
+
+    <script src="media.js">
+        
+    </script>
+</body>
+</html>

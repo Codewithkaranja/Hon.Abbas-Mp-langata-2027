@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Abbas Khalif | Lang'ata MP Aspirant 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+           <a href="index.html" class="logo">
+          <img
+            src="abbas-favicon.webp"
+            alt="Abbas Khalif favicon Logo"
+            class="logo-img"
+          />
+        </a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="#donate" class="btn btn-primary" style="padding: 8px 20px; margin-left: 10px;">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+  <!-- Page Hero -->
+<section class="page-hero contact-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <h1>Let's Connect</h1>
+        <p>
+            Get in touch with Abbas Khalif's campaign team.
+            We're here to listen and work together for a better Lang'ata.
+        </p>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info-box">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Campaign Headquarters</h4>
+                           <a href="https://maps.app.goo.gl/eDe3a8vN7H3uQG666"> <p>Lang'ata Constituency, Kenya</p>
+                            <p>South C </p></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone Numbers</h4>
+                            <p><a href="tel:+254723562484">+254 723 562 484</a> (Primary)</p>
+                            
+                            <p>Available: Mon-Fri, 8:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:info@abbaskhalif.com">info@abbaskhalif.com</a></p>
+                            <p>For campaign inquiries, partnerships, and media requests</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Office Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 1:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Volunteer & Support</h4>
+                            <p>Interested in volunteering?</p>
+                            <p><a href="volunteer.html">Join our campaign team →</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-box">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="" disabled selected>Select a subject</option>
+                                <option value="campaign">Campaign Information</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="donation">Donation Inquiries</option>
+                                <option value="media">Media Request</option>
+                                <option value="event">Event Invitation</option>
+                                <option value="policy">Policy Questions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Your message..." required></textarea>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary" style="padding: 15px 40px;">Send Message</button>
+                        </div>
+                    </form>
+                    
+                    <div id="formMessage" style="margin-top: 20px; display: none; padding: 15px; border-radius: 5px; text-align: center;"></div>
+                </div>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="contact-social">
+                <h3>Connect on Social Media</h3>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/profile.php?id=100078165384028" target="_blank" class="social-link-item">
+                        <div class="social-link-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-link-text">Facebook</div>
+                    </a>
+                    
+                    <a href="https://x.com/AbbasKhalif" target="_blank" class="social-link-item">
+                        <div class="social-link-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social-link-text">Twitter</div>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/AbbasKhalif/?hl=en" target="_blank" class="social-link-item">
+                        <div class="social-link-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="social-link-text">Instagram</div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/Abbas-Khalif-mgh-a583322?originalSubdomain=ke" target="_blank" class="social-link-item">
+                        <div class="social-link-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="social-link-text">LinkedIn</div>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/channel/UCyTL4fNBFS6BdrJDQ6pdvPA" target="_blank" class="social-link-item">
+                        <div class="social-link-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="social-link-text">YouTube</div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-section">
+                <h2 style="text-align: center; font-size: 2rem; color: var(--black); margin-bottom: 30px;">Our Location</h2>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <h3>Lang'ata Constituency, Kenya</h3>
+                        <p>Campaign Headquarters: Lang'ata Town| Doctors Plaza</p>
+                        <p style="margin-top: 20px;">
+                            <a href="https://maps.app.goo.gl/eDe3a8vN7H3uQG666" target="_blank" class="btn btn-gold" style="margin-top: 15px;">
+                                Open in Google Maps
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-img">AK</div>
+                        Abbas Khalif
+                    </div>
+                    <p> Abbas Khalif is a committed leader, technocrat, and public servant with a proven track record of excellence in governance. Join us in building a better Lang'ata for all.</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100078165384028" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/AbbasKhalif" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/AbbasKhalif/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/Abbas-Khalif-mgh-a583322/?originalSubdomain=ke" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/channel/UCyTL4fNBFS6BdrJDQ6pdvPA" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Khalif</a></li>
+                        <li><a href="news.html">News & Updates</a></li>
+                        <li><a href="media.html">Media Gallery</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/eDe3a8vN7H3uQG666">Lang'ata Constituency, Kenya</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+254723562484" style="color: var(--gray-light);">+254 723 562 484</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@abbaskhalif.com" style="color: var(--gray-light);">info@abbaskhalif.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Abbas Khalif Campaign. All Rights Reserved. | </p>
+                <p style="margin-top: 10px;">Lang'ata MP Aspirant 2027</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254723562484?text=Hello%20Abbas%20Khalif%20Campaign,%20I%20would%20like%20to%20get%20in%20touch%20about%20your%202027%20Lang'ata%20MP%20campaign" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="contact.js">
+        
+    </script>
+</body>
+</html>
